@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LASU Voting System - Results</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="main-container">
+
+    <div class="header">
+      <img src="images/lasu logo.png" class="lasu-logo">
+      <h1>Admin Result Page</h1>
+      <p class="school-name">Election Result Summary</p>
+    </div>
+
+    <div class="result-card">
+      <h2>Ikechukwu Ekene</h2>
+      <p id="resultA">Votes: 0</p>
+
+      <div class="progress-box">
+        <div id="barA" class="progress-bar"></div>
+      </div>
+
+      <p id="percentA">0%</p>
+    </div>
+
+    <div class="result-card">
+      <h2>Hakeem Oyebade</h2>
+      <p id="resultB">Votes: 0</p>
+
+      <div class="progress-box">
+        <div id="barB" class="progress-bar"></div>
+      </div>
+
+      <p id="percentB">0%</p>
+    </div>
+
+    <div class="result-card">
+      <h2>Fatanmi Adeniran</h2>
+      <p id="resultC">Votes: 0</p>
+
+      <div class="progress-box">
+        <div id="barC" class="progress-bar"></div>
+      </div>
+
+      <p id="percentC">0%</p>
+    </div>
+
+    <h2 id="winnerText"></h2>
+
+    <button onclick="resetElection()" class="danger-btn">
+      Reset Election
+    </button>
+
+    <br><br>
+
+    <a href="index.html">Back to Login</a>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

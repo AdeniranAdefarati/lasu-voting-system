@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagos state university Voting System - Vote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <img src="images/lasu logo.png" class="lasu-logo">
+        <h1>Lagos state university Student Voting System</h1>
+        <p id="welcomeText"></p>
+
+        <div class="candidate-box">
+
+        <div class="candidate-card">
+            <img src="images/Image 1.jpeg" class="candidate-img">
+            <h2>Ikechukwu Ekene</h2>
+            <p>President</p>
+            <button onclick="voteCandidate('Candidate A')">Vote</button>
+        </div>
+
+        <div class="candidate-card">
+            <img src="images/Image 2.jpeg" class="candidate-img">
+            <h2>Hakeem oyebade</h2>
+            <p>President</p>
+            <button onclick="voteCandidate('Candidate B')">Vote</button>
+        </div>
+
+        <div class="candidate-card">
+            <img src="images/Image 3.jpeg" class="candidate-img">
+            <h2>Fatanmi Adeniran</h2>
+            <p>President</p>
+            <button onclick="voteCandidate('Candidate C')">Vote</button>
+        </div>
+
+        </div>
+
+        <button class="logout-btn" onclick="logoutUser()">Logout</button>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
